@@ -1,0 +1,199 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.14.0
+Date: 2025.09.29
+  Minor Features:
+    - Atomic projectile lights are 3x bigger. 
+    - Increased atomic bomb camera effects.
+  Graphics:
+    - Adjusted lighting effects of fissure attacks.
+  Changes:
+    - Decreased fire light intensity slightly.
+  Bugfixes:
+    - Fixed fire sticker size increase applying twice.
+  Info:
+    - Bumped version requirement for data-utils.
+---------------------------------------------------------------------------------------------------
+Version: 0.13.3
+Date: 2025.09.11
+  Features:
+    - Increased size and tweaked the lights from rocket launches.
+    - Added a setting to multiply or disable the rocket launch light changes.
+---------------------------------------------------------------------------------------------------
+Version: 0.13.2
+Date: 2025.06.15
+  Minor Features:
+    - Added lights to negative fire damage effects.
+  Bugfixes:
+    - Fixed compatibility with mods that add labs without collision boxes. Credit to @Hoochie.
+---------------------------------------------------------------------------------------------------
+Version: 0.13.1
+Date: 2025.05.05
+  Features:
+    - Added lights to working labs when they're missing.
+  Info:
+    - Updated both optional flashlight mod dependencies to versions compatible with 2.0. Credit to @NOiZE.
+---------------------------------------------------------------------------------------------------
+Version: 0.13.0
+Date: 2025.02.24
+  Bugfixes:
+    - Fixed flashlight offset when using Light overhaul.
+  Optimizations:
+    - Internal refactoring.
+  Info:
+    - Moved my utility function into a new mod library.
+---------------------------------------------------------------------------------------------------
+Version: 0.12.2
+Date: 2025.01.19
+  Bugfixes:
+    - Experimentally improved flashlight multiplier compatibility. Credit to @NOiZE.
+  Locale:
+    - Fixed typo.
+---------------------------------------------------------------------------------------------------
+Version: 0.12.1
+Date: 2025.01.08
+  Features:
+    - Added a setting to disable the minimap when looking at space platforms.
+  Minor Features:
+    - Improved reliability of map settings.
+  Bugfixes:
+    - Fixed minimap being stuck closed if you disabled the setting while it was off. Credit to @NOiZE.
+  Locale:
+    - Changed word "remove" to "hide" for some map settings' descriptions.
+---------------------------------------------------------------------------------------------------
+Version: 0.12.0
+Date: 2024.12.05
+  Features:
+    - Added a setting to multiply how much fires spread.
+    - Added flickering to fires which change their sizes up and down.
+  Minor Features:
+    - Increased size of Vulcanus tree fires.
+    - Changing the flashlight mult setting now applies to locomotive flashlights.
+    - Added a separate setting to hide demolishers from the map.
+  Graphics:
+    - Changed fissure light effects.
+  Bugfixes:
+    - Fixed removal of enemies in map setting not applying to demolisher heads.
+---------------------------------------------------------------------------------------------------
+Version: 0.11.4
+Date: 2024.11.27
+  Bugfixes:
+    - Fixed removal of enemies in map setting not applying to segmented units or pentapod feet.
+    - Added compatibility for mods that change the default flashlight structure. Credit to @PaladinOne.
+---------------------------------------------------------------------------------------------------
+Version: 0.11.3
+Date: 2024.11.22
+  Minor Features:
+    - Added lights to modded flamethrower turret muzzles.
+  Bugfixes:
+    - Fixed removal of enemies in map setting not applying to spider units.
+    - Improved reliability of safety checks.
+  Info:
+    - Swapped out Clockwork for Diurnal Dynamics in optional dependencies.
+---------------------------------------------------------------------------------------------------
+Version: 0.11.2
+Date: 2024.11.13
+  Changes:
+    - Disabled the rebalanced nightvision setting by default.
+  Bugfixes:
+    - Fixed compatibilty issue with mods that add spidertrons without lights.
+---------------------------------------------------------------------------------------------------
+Version: 0.11.1
+Date: 2024.11.12
+  Bugfixes:
+    - Fixed animation speed issue.
+---------------------------------------------------------------------------------------------------
+Version: 0.11.0
+Date: 2024.11.12
+  Major Features:
+    - Added Factorio 2.0 compatibility.
+    - Added Space Age compatibility.
+  Features:
+    - Added lights to shotgun pellets and lasers.
+    - Added lights to Space Age related attacks, projectiles and explosions when using Space Age.
+  Changes:
+    - Adjusted explosion light size and animation speed.
+  Bugfixes:
+    - Fixed character flashlight edgecases with some mods.
+---------------------------------------------------------------------------------------------------
+Version: 0.10.2
+Date: 2024.09.26
+  Bugfixes:
+    - Improved vehicle light checks to support shield barriers that are actually cars. Credit to @Dh4mpyr.
+---------------------------------------------------------------------------------------------------
+Version: 0.10.1
+Date: 2024.09.25
+  Major Features:
+    - Added lights to some buildings' death explosions.
+  Minor Features:
+    - Added a performance setting to removes the on-hit lights that are created when a bullet lands.
+  Bugfixes:
+    - Corrected changelog.
+    - Fixed muzzle flash animations being slower than intended.
+    - Fixed mismatched car headlights. Credit to @PeasantUnit.
+---------------------------------------------------------------------------------------------------
+Version: 0.10.0
+Date: 2024.09.23
+  Changes:
+    - Decided on the name Fire Lights. Renamed things accordingly.
+  Info:
+    - Improved the mod description.
+    - Added an icon.
+    - Initial public release.
+---------------------------------------------------------------------------------------------------
+Version: 0.9.3
+Date: 2024.06.09
+  Features:
+    - Added a new nightvision effect.
+    - Increased nightvision power cost and size.
+    - Added a setting to the disable nightvision overhaul.
+  Graphics:
+    - Nightvision effect no longer grants such good visibility. 
+  Optimizations:
+    - Added sanity check to flashlight size increase. Other mods seem to silently do them and the effects are multiplicative.
+    - Added normalisation of spidertron flashlight sizes when multiple are found after a mod only changes the first.
+  Bugfixes:
+    - Yep.
+---------------------------------------------------------------------------------------------------
+Version: 0.9.2
+Date: 2024.06.04
+  Minor Features:
+    - Added an idle light to flamethrower turrets.
+  Graphics:
+    - Slowed the gun and turret flash to make the added light more useful.
+  Optimizations:
+    - Reworked settings' implementation.
+  Bugfixes:
+    - Yep.
+---------------------------------------------------------------------------------------------------
+Version: 0.9.1
+Date: 2024.05.24
+  Major Features:
+    - Added lights to projectiles.
+    - Added flashes of light when guns and turrets fire.
+  Minor Features:
+    - Added extra setting for disabling explosion lights.
+    - Added a setting to increase flashlight sizes for players, vehicles and spidertrons. 
+    - Added more settings to startup settings.
+  Optimizations:
+    - Optimised runtime daylight check.
+  Changes:
+    - Increased light sizes.
+    - Adjusted light algo.
+  Bugfixes:
+    - Yep.
+---------------------------------------------------------------------------------------------------
+Version: 0.9.0
+Date: 2024.05.18
+  Major Features:
+    - Added dynamic lights to fires with sizes, colours and intensities based on their damages and types.
+    - Added dynamic lights to explosions based on their size.
+  Features:
+    - Added a setting to hide enemy units on the minimap.
+    - Added a setting to hide the minimap at night.
+    - Added lights to fire stickers. (Fire worm spit) 
+    - Has good mod compatibility.
+  Info:
+    - Initial privately shared release.
+    - Works best with a mod that makes nights darker.
+  Locale:
+    - Basic en locale support.

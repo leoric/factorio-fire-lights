@@ -1,0 +1,19 @@
+{
+  "name": "fire-lights",
+  "version": "0.14.0",
+  "title": "Fire Lights",
+  "author": "DataCpt",
+  "homepage": "https://discord.gg/Y82Pj635Rx",
+  "dependencies": [
+    "base >= 2.0",
+    "data-utils >= 0.10",
+    "data-utils < 0.11",
+    "?space-age",
+    "?diurnal-dynamics",
+    "?distant-misfires",
+    "?realistic-flashlight-fixed",
+    "?Pro-Flashlight"
+  ],
+  "description": "Adds lights to fires, explosions, muzzle flashes, bullets, rockets, projectiles and more! Fully customisable!",
+  "factorio_version": "2.0"
+}
