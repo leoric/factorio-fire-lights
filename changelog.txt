@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.14.1
+Date: 2026.07.12
+  Info:
+    - Updated to Factorio 2.1. No code changes were required: the fire/sticker/explosion/
+      fluid-turret/lab/rocket-silo/tree/camera-effect prototype fields this mod relies on are
+      unaffected. Note that 2.1 gave railgun/rocket/tesla turret explosions properly defined
+      visuals, which this mod's railgun/fissure light adjustments continue to apply on top of.
+---------------------------------------------------------------------------------------------------
 Version: 0.14.0
 Date: 2025.09.29
   Minor Features:

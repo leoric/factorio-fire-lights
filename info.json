@@ -1,11 +1,11 @@
 {
   "name": "fire-lights",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "title": "Fire Lights",
   "author": "DataCpt",
   "homepage": "https://discord.gg/Y82Pj635Rx",
   "dependencies": [
-    "base >= 2.0",
+    "base >= 2.1",
     "data-utils >= 0.10",
     "data-utils < 0.11",
     "?space-age",
@@ -15,5 +15,5 @@
     "?Pro-Flashlight"
   ],
   "description": "Adds lights to fires, explosions, muzzle flashes, bullets, rockets, projectiles and more! Fully customisable!",
-  "factorio_version": "2.0"
+  "factorio_version": "2.1"
 }
